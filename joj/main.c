@@ -7,9 +7,11 @@
 //
 
 #include <stdio.h>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+int main()
+{
+    int a,b;
+    scanf("%d",&a);
+    b=a%10;
+    printf("%d\n",b);
     return 0;
 }
